@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, This Is Dheenadhayalan S</h1>
 <h3 align="center">A passionate Fullstack Developer from India</h3>
-<p align="center"> <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mindmade.in%2Ffull-stack-developers-in-coimbatore%2F&psig=AOvVaw1fRjsbakg9RcZ7rCNb6-TJ&ust=1750798636253000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMCIxKq3iI4DFQAAAAAdAAAAABAM" /> </p>
+<p align="center"> <img src="https://www.mindmade.in/wp-content/uploads/2024/01/code.gif" /> </p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dheenadhayalan211203&label=Profile%20views&color=0e75b6&style=flat" alt="dheenadhayalan211203" /> </p>
 
