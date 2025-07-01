@@ -1,291 +1,808 @@
-<h1 align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> 
-  <span class="neon-text">Hi, I'm Dheenadhayalan S</span>
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> 
-</h1>
-
-<h3 align="center" class="neon-subtext">🚀 Fullstack Developer | Open Source Contributor</h3>
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&color=00F7FF&width=500&lines=%7B+Turning+coffee+into+code+%7D;%7B+Building+scalable+web+apps+%7D;%7B+Learning+something+new+daily+%7D;%7B+Security+through+obscurity+is+no+security+at+all+%7D" alt="Typing SVG" />
-</div>
-
-<div align="center">
-  <img src="https://i.gifer.com/origin/2d/2d7e5a6f1f6d5a1e8e5a1e5a1e5a1e5.gif" width="600" height="300" />
-</div>
-
----
-
-### 🔥 Streak Stats
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dheenadhayalan211203&theme=dark&hide_border=true&background=0D1117&stroke=00F7FF&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" alt="dheenadhayalan211203" />
-</p>
-
----
-
-### 🛠️ Tech Stack
-<div align="center">
-  <div class="tech-stack-grid">
-    <!-- Frontend -->
-    <div class="tech-item" data-tooltip="HTML5">
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-    </div>
-    <div class="tech-item" data-tooltip="CSS3">
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-    </div>
-    <div class="tech-item" data-tooltip="JavaScript">
-      <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-    </div>
-    <div class="tech-item" data-tooltip="React">
-      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-    </div>
+  
+  <!-- Animated Matrix Background -->
+  <div class="matrix-bg"></div>
+  
+  <!-- Main Container -->
+  <div class="portfolio-container">
     
-    <!-- Backend -->
-    <div class="tech-item" data-tooltip="Node.js">
-      <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+    <!-- Animated Header -->
+    <header class="neon-header">
+      <div class="scanline"></div>
+      <h1>
+        <span class="glitch" data-text="DHEENADHAYALAN S">DHEENADHAYALAN S</span>
+        <span class="cursor">_</span>
+      </h1>
+      <div class="typewriter">
+        <span class="type-text">Fullstack Developer | CyberSecurity Specialist</span>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="cyber-tabs">
+      <button class="tab active" onclick="showSection('about')">About</button>
+      <button class="tab" onclick="showSection('skills')">Skills</button>
+      <button class="tab" onclick="showSection('projects')">Projects</button>
+      <button class="tab" onclick="showSection('contact')">Contact</button>
+    </nav>
+
+    <!-- Content Sections -->
+    <div class="content-section" id="about">
+      <div class="profile-card">
+        <div class="hologram">
+          <div class="holo-circle"></div>
+          <div class="holo-line"></div>
+          <img src="https://avatars.githubusercontent.com/u/Dheenadhayalan2112203" class="profile-img" alt="Profile"/>
+        </div>
+        <div class="profile-info">
+          <h3>About Me</h3>
+          <p>Passionate fullstack developer with cybersecurity expertise. Building robust web applications while ensuring they're secure by design. Open source contributor and tech enthusiast.</p>
+          <div class="status-light">
+            <div class="pulse"></div>
+            <span>Currently working on AI security projects</span>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="tech-item" data-tooltip="Express">
-      <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+
+    <div class="content-section" id="skills" style="display:none">
+      <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skill-category">
+          <h4><span class="hex">&#x2B22;</span> Frontend</h4>
+          <ul>
+            <li><span class="skill-level" style="width:90%">React</span></li>
+            <li><span class="skill-level" style="width:85%">JavaScript</span></li>
+            <li><span class="skill-level" style="width:80%">HTML5/CSS3</span></li>
+          </ul>
+        </div>
+        
+        <!-- Backend -->
+        <div class="skill-category">
+          <h4><span class="hex">&#x2B22;</span> Backend</h4>
+          <ul>
+            <li><span class="skill-level" style="width:88%">Node.js</span></li>
+            <li><span class="skill-level" style="width:75%">Python</span></li>
+            <li><span class="skill-level" style="width:70%">Java</span></li>
+          </ul>
+        </div>
+        
+        <!-- Security -->
+        <div class="skill-category">
+          <h4><span class="hex">&#x2B22;</span> Security</h4>
+          <ul>
+            <li><span class="skill-level" style="width:85%">Pen Testing</span></li>
+            <li><span class="skill-level" style="width:80%">Cryptography</span></li>
+            <li><span class="skill-level" style="width:75%">Ethical Hacking</span></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    
-    <!-- Databases -->
-    <div class="tech-item" data-tooltip="MongoDB">
-      <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+
+    <div class="content-section" id="projects" style="display:none">
+      <div class="project-gallery">
+        <div class="project-card">
+          <div class="project-badge">New</div>
+          <h4>Secure Auth System</h4>
+          <p>JWT-based authentication with biometric verification</p>
+          <div class="tech-tags">
+            <span>Node.js</span>
+            <span>React</span>
+            <span>OAuth2</span>
+          </div>
+          <button class="cyber-button">View Project</button>
+        </div>
+        
+        <div class="project-card">
+          <h4>Network Scanner</h4>
+          <p>Python utility for network vulnerability assessment</p>
+          <div class="tech-tags">
+            <span>Python</span>
+            <span>Scapy</span>
+            <span>Nmap</span>
+          </div>
+          <button class="cyber-button">View Project</button>
+        </div>
+      </div>
     </div>
-    <div class="tech-item" data-tooltip="MySQL">
-      <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+
+    <div class="content-section" id="contact" style="display:none">
+      <div class="contact-panel">
+        <div class="contact-methods">
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <a href="mailto:dheenadha19@gmail.com">dheenadha19@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">🔗</div>
+            <a href="https://linkedin.com/in/dheenadhayalan-s-07b50222a">LinkedIn</a>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💻</div>
+            <a href="https://github.com/dheenadhayalan211203">GitHub</a>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <h4>Send Message</h4>
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" class="cyber-input">
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email" class="cyber-input">
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Message" class="cyber-input"></textarea>
+          </div>
+          <button class="cyber-button">Transmit</button>
+        </div>
+      </div>
     </div>
-    
-    <!-- Languages -->
-    <div class="tech-item" data-tooltip="Python">
-      <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+
+    <!-- Stats Dashboard -->
+    <div class="dashboard">
+      <div class="stat-card">
+        <div class="stat-value" id="commits-counter">0</div>
+        <div class="stat-label">Commits</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="repos-counter">0</div>
+        <div class="stat-label">Repositories</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" id="stars-counter">0</div>
+        <div class="stat-label">Stars</div>
+      </div>
     </div>
-    <div class="tech-item" data-tooltip="Java">
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-    </div>
-    <div class="tech-item" data-tooltip="C">
-      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-    </div>
-    
-    <!-- Tools -->
-    <div class="tech-item" data-tooltip="Git">
-      <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
-    </div>
-    <div class="tech-item" data-tooltip="Linux">
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-    </div>
+
+    <!-- Footer -->
+    <footer class="cyber-footer">
+      <div class="crypto-animation">
+        <div class="crypto-line"></div>
+        <div class="crypto-line"></div>
+        <div class="crypto-line"></div>
+      </div>
+      <p>© 2023 Dheenadhayalan S | All systems operational</p>
+    </footer>
   </div>
 </div>
 
----
-
-### 📊 GitHub Stats
-<div align="center">
+<!-- GitHub Stats -->
+<div align="center" style="margin-top: 50px;">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=dheenadhayalan211203&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF&text_color=ffffff" />
   <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dheenadhayalan211203&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&text_color=ffffff" />
 </div>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dheenadhayalan211203&theme=darkhub&no-frame=true&row=1&column=7&margin-w=15&margin-h=15" />
-</div>
-
----
-
-### 🌐 Digital Hub
-<div align="center">
-  <div class="hub-container">
-    <div class="hub-item" data-tooltip="LinkedIn">
-      <a href="https://www.linkedin.com/in/dheenadhayalan-s-07b50222a" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-      </a>
-    </div>
-    <div class="hub-item" data-tooltip="Instagram">
-      <a href="https://www.instagram.com/dheena_shobha?igsh=y3bnnzlrbnlnmhfj" target="_blank">
-        <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-      </a>
-    </div>
-    <div class="hub-item" data-tooltip="Email">
-      <a href="mailto:dheenadha19@gmail.com" target="_blank">
-        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-      </a>
-    </div>
-    <div class="hub-item" data-tooltip="LeetCode">
-      <a href="#" target="_blank">
-        <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
-      </a>
-    </div>
-  </div>
-</div>
-
----
-
-### 💻 Cyber Terminal
-<div align="center">
-  <div class="terminal">
-    <div class="terminal-header">
-      <div class="terminal-buttons">
-        <span class="terminal-button red"></span>
-        <span class="terminal-button yellow"></span>
-        <span class="terminal-button green"></span>
-      </div>
-      <div class="terminal-title">dheena@cyberhub:~</div>
-    </div>
-    <div class="terminal-body">
-      <p><span class="terminal-prompt">$</span> whoami</p>
-      <p>Dheenadhayalan S - Fullstack Developer</p>
-      <p><span class="terminal-prompt">$</span> ls skills</p>
-      <p>web_dev cybersecurity open_source linux python</p>
-      <p><span class="terminal-prompt">$</span> <span class="terminal-cursor">_</span></p>
-    </div>
-  </div>
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=dheenadhayalan211203&label=PROFILE+VISITS&color=00F7FF&style=flat" alt="dheenadhayalan211203" /> 
-</div>
-
 <style>
-  .neon-text {
-    color: #fff;
-    text-shadow: 
-      0 0 5px #00F7FF,
-      0 0 10px #00F7FF,
-      0 0 20px #00F7FF,
-      0 0 40px #00F7FF;
-    animation: flicker 1.5s infinite alternate;
+  /* Base Styles */
+  :root {
+    --neon-blue: #00F7FF;
+    --neon-pink: #FF00FF;
+    --dark-bg: #0d1117;
+    --darker-bg: #010409;
+    --terminal-text: #00FF41;
   }
   
-  .neon-subtext {
-    color: #fff;
-    text-shadow: 
-      0 0 2px #00F7FF,
-      0 0 5px #00F7FF;
-  }
-  
-  @keyframes flicker {
-    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
-      text-shadow: 
-        0 0 5px #00F7FF,
-        0 0 10px #00F7FF,
-        0 0 20px #00F7FF,
-        0 0 40px #00F7FF;
-    }
-    20%, 24%, 55% {        
-      text-shadow: none;
-    }
-  }
-  
-  .tech-stack-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 15px;
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  .tech-item {
-    transition: transform 0.3s;
+  body {
+    background-color: var(--dark-bg);
+    color: white;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 20px;
     position: relative;
+    overflow-x: hidden;
   }
   
-  .tech-item:hover {
-    transform: translateY(-5px);
+  .portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(13, 17, 23, 0.9);
+    border: 1px solid var(--neon-blue);
+    box-shadow: 0 0 30px rgba(0, 247, 255, 0.3);
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    border-radius: 10px;
   }
   
-  .tech-item::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(0, 247, 255, 0.8);
-    color: #000;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 12px;
-    opacity: 0;
-    transition: opacity 0.3s;
+  /* Matrix Background */
+  .matrix-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif') center/cover;
+    opacity: 0.15;
+    z-index: 1;
   }
   
-  .tech-item:hover::after {
-    opacity: 1;
-  }
-  
-  .hub-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 20px 0;
-  }
-  
-  .hub-item {
-    transition: transform 0.3s;
-  }
-  
-  .hub-item:hover {
-    transform: scale(1.1);
-  }
-  
-  .terminal {
-    width: 80%;
-    max-width: 600px;
-    margin: 20px auto;
-    border-radius: 8px;
+  /* Header Styles */
+  .neon-header {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 247, 255, 0.5);
   }
   
-  .terminal-header {
-    background: #333;
-    padding: 8px 15px;
-    display: flex;
-    align-items: center;
+  .scanline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 247, 255, 0.1) 0%,
+      rgba(0, 247, 255, 0) 10%
+    );
+    background-size: 100% 8px;
+    animation: scanline 8s linear infinite;
+    pointer-events: none;
   }
   
-  .terminal-buttons {
-    display: flex;
-    gap: 8px;
+  @keyframes scanline {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 100%; }
   }
   
-  .terminal-button {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
+  .glitch {
+    position: relative;
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    animation: glitch-effect 3s infinite;
+  }
+  
+  .glitch:before {
+    content: attr(data-text);
+    position: absolute;
+    left: -2px;
+    text-shadow: -5px 0 var(--neon-pink);
+    clip: rect(44px, 450px, 56px, 0);
+    animation: glitch-anim 5s infinite linear alternate-reverse;
+  }
+  
+  .glitch:after {
+    content: attr(data-text);
+    position: absolute;
+    left: 2px;
+    text-shadow: -5px 0 var(--neon-blue);
+    clip: rect(44px, 450px, 56px, 0);
+    animation: glitch-anim2 5s infinite linear alternate-reverse;
+  }
+  
+  @keyframes glitch-effect {
+    0%, 100% { text-shadow: 0 0 10px var(--neon-blue); }
+    25% { text-shadow: -5px -5px 10px var(--neon-pink); }
+    50% { text-shadow: 5px 5px 10px var(--neon-blue); }
+    75% { text-shadow: -5px 5px 10px var(--neon-pink); }
+  }
+  
+  .cursor {
+    animation: blink 1s infinite;
+    color: var(--neon-blue);
+  }
+  
+  .typewriter {
+    margin-top: 20px;
+  }
+  
+  .type-text {
+    color: var(--neon-blue);
+    font-size: 1.2rem;
+    border-right: 2px solid var(--neon-blue);
+    animation: typing 3s steps(40) 1s 1 normal both,
+               blink-caret 0.75s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
     display: inline-block;
   }
   
-  .terminal-button.red { background: #ff5f56; }
-  .terminal-button.yellow { background: #ffbd2e; }
-  .terminal-button.green { background: #27c93f; }
-  
-  .terminal-title {
-    color: #aaa;
-    font-family: monospace;
-    font-size: 12px;
-    margin-left: 15px;
+  /* Tab Navigation */
+  .cyber-tabs {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    border-bottom: 1px solid rgba(0, 247, 255, 0.3);
   }
   
-  .terminal-body {
-    background: #000;
-    color: #00F7FF;
-    font-family: monospace;
+  .tab {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    transition: all 0.3s;
+  }
+  
+  .tab:after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--neon-blue);
+    transition: width 0.3s;
+  }
+  
+  .tab:hover:after,
+  .tab.active:after {
+    width: 100%;
+  }
+  
+  .tab.active {
+    color: var(--neon-blue);
+  }
+  
+  /* Profile Section */
+  .profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px;
+  }
+  
+  .hologram {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .holo-circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--neon-blue);
+    border-radius: 50%;
+    animation: rotate 20s linear infinite;
+  }
+  
+  .holo-line {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0,247,255,0.1) 0%, rgba(0,247,255,0) 70%);
+    border-radius: 50%;
+  }
+  
+  .profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    border: 3px solid var(--neon-blue);
+    box-shadow: 0 0 20px rgba(0, 247, 255, 0.5);
+  }
+  
+  .profile-info {
+    max-width: 500px;
+  }
+  
+  .status-light {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: var(--neon-blue);
+  }
+  
+  .pulse {
+    width: 12px;
+    height: 12px;
+    background: var(--neon-blue);
+    border-radius: 50%;
+    margin-right: 10px;
+    animation: pulse 2s infinite;
+    box-shadow: 0 0 10px var(--neon-blue);
+  }
+  
+  /* Skills Section */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .skill-category {
+    background: rgba(1, 4, 9, 0.7);
+    padding: 20px;
+    border: 1px solid rgba(0, 247, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 247, 255, 0.1);
+  }
+  
+  .skill-category h4 {
+    color: var(--neon-blue);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .hex {
+    margin-right: 10px;
+    color: var(--neon-blue);
+  }
+  
+  .skill-category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skill-category li {
+    margin-bottom: 15px;
+  }
+  
+  .skill-level {
+    display: block;
+    height: 10px;
+    background: linear-gradient(90deg, var(--neon-blue), var(--neon-pink));
+    border-radius: 5px;
+    position: relative;
+    transition: width 1s ease-in-out;
+  }
+  
+  .skill-level:after {
+    content: attr(style);
+    position: absolute;
+    right: -40px;
+    top: -5px;
+    color: white;
+    font-size: 0.8rem;
+  }
+  
+  /* Projects Section */
+  .project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .project-card {
+    background: rgba(1, 4, 9, 0.7);
+    padding: 25px;
+    border: 1px solid rgba(0, 247, 255, 0.2);
+    border-radius: 5px;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 247, 255, 0.2);
+  }
+  
+  .project-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: var(--neon-pink);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    transform: rotate(15deg);
+  }
+  
+  .tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 15px 0;
+  }
+  
+  .tech-tags span {
+    background: rgba(0, 247, 255, 0.1);
+    color: var(--neon-blue);
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+  }
+  
+  /* Contact Section */
+  .contact-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+  }
+  
+  .contact-methods {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
     padding: 15px;
-    min-height: 150px;
+    background: rgba(1, 4, 9, 0.7);
+    border-radius: 5px;
+    transition: transform 0.3s;
   }
   
-  .terminal-prompt {
-    color: #27c93f;
+  .contact-item:hover {
+    transform: translateX(10px);
   }
   
-  .terminal-cursor {
-    animation: blink 1s infinite;
+  .contact-icon {
+    margin-right: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .contact-item a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .contact-item a:hover {
+    color: var(--neon-blue);
+  }
+  
+  /* Form Elements */
+  .cyber-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: rgba(1, 4, 9, 0.7);
+    border: 1px solid var(--neon-blue);
+    color: white;
+    font-family: 'Courier New', monospace;
+    border-radius: 3px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .cyber-input:focus {
+    outline: none;
+    box-shadow: 0 0 10px var(--neon-blue);
+  }
+  
+  textarea.cyber-input {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  /* Buttons */
+  .cyber-button {
+    background: linear-gradient(45deg, var(--neon-blue), var(--neon-pink));
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    transition: all 0.3s;
+  }
+  
+  .cyber-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 247, 255, 0.4);
+  }
+  
+  .cyber-button:active {
+    transform: translateY(0);
+  }
+  
+  .cyber-button:after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 50px;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(30deg);
+    transition: all 0.3s;
+  }
+  
+  .cyber-button:hover:after {
+    left: 120%;
+  }
+  
+  /* Dashboard */
+  .dashboard {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px 0;
+  }
+  
+  .stat-card {
+    text-align: center;
+    padding: 20px;
+    min-width: 150px;
+    background: rgba(1, 4, 9, 0.7);
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid rgba(0, 247, 255, 0.2);
+  }
+  
+  .stat-value {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--neon-blue);
+    margin-bottom: 5px;
+  }
+  
+  .stat-label {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Footer */
+  .cyber-footer {
+    text-align: center;
+    padding: 30px 0 10px;
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .crypto-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    overflow: hidden;
+  }
+  
+  .crypto-line {
+    position: absolute;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--neon-blue), transparent);
+    animation: crypto-flow 3s linear infinite;
+  }
+  
+  .crypto-line:nth-child(1) {
+    top: 0;
+    animation-delay: 0s;
+  }
+  
+  .crypto-line:nth-child(2) {
+    top: 10px;
+    animation-delay: 1s;
+  }
+  
+  .crypto-line:nth-child(3) {
+    top: 20px;
+    animation-delay: 2s;
+  }
+  
+  /* Animations */
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  @keyframes pulse {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
   }
   
   @keyframes blink {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
   }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: var(--neon-blue); }
+  }
+  
+  @keyframes crypto-flow {
+    0% { left: -100%; width: 30%; }
+    100% { left: 100%; width: 50%; }
+  }
+  
+  @keyframes glitch-anim {
+    0% { clip: rect(31px, 9999px, 94px, 0); }
+    10% { clip: rect(112px, 9999px, 76px, 0); }
+    20% { clip: rect(85px, 9999px, 77px, 0); }
+    30% { clip: rect(27px, 9999px, 97px, 0); }
+    40% { clip: rect(64px, 9999px, 98px, 0); }
+    50% { clip: rect(61px, 9999px, 85px, 0); }
+    60% { clip: rect(99px, 9999px, 114px, 0); }
+    70% { clip: rect(34px, 9999px, 115px, 0); }
+    80% { clip: rect(98px, 9999px, 129px, 0); }
+    90% { clip: rect(43px, 9999px, 96px, 0); }
+    100% { clip: rect(82px, 9999px, 64px, 0); }
+  }
+  
+  @keyframes glitch-anim2 {
+    0% { clip: rect(65px, 9999px, 119px, 0); }
+    10% { clip: rect(79px, 9999px, 66px, 0); }
+    20% { clip: rect(101px, 9999px, 114px, 0); }
+    30% { clip: rect(100px, 9999px, 113px, 0); }
+    40% { clip: rect(114px, 9999px, 123px, 0); }
+    50% { clip: rect(108px, 9999px, 111px, 0); }
+    60% { clip: rect(106px, 9999px, 68px, 0); }
+    70% { clip: rect(75px, 9999px, 103px, 0); }
+    80% { clip: rect(107px, 9999px, 105px, 0); }
+    90% { clip: rect(104px, 9999px, 50px, 0); }
+    100% { clip: rect(115px, 9999px, 89px, 0); }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .profile-card {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .contact-panel {
+      flex-direction: column;
+    }
+    
+    .glitch {
+      font-size: 2rem;
+    }
+  }
 </style>
+
+<script>
+  // Tab Navigation
+  function showSection(sectionId) {
+    document.querySelectorAll('.content-section').forEach(section => {
+      section.style.display = 'none';
+    });
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.classList.remove('active');
+    });
+    
+    document.getElementById(sectionId).style.display = 'block';
+    event.currentTarget.classList.add('active');
+  }
+  
+  // Animated Counters
+  function animateCounter(elementId, target, duration = 2000) {
+    const element = document.getElementById(elementId);
+    const start = 0;
+    const increment = target / (duration / 16);
+    let current = start;
+    
+    const timer = setInterval(() => {
+      current += increment;
+      if (current >= target) {
+        clearInterval(timer);
+        current = target;
+      }
+      element.textContent = Math.floor(current);
+    }, 16);
+  }
+  
+  // Initialize counters after page loads
+  window.onload = function() {
+    animateCounter('commits-counter', 1274);
+    animateCounter('repos-counter', 28);
+    animateCounter('stars-counter', 156);
+  };
+</script>
